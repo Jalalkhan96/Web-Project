@@ -34,16 +34,25 @@ body{
     box-sizing: border-box;
     border-radius: 6px;
 }
+.asdf{
+    background-color: #494747;
+    padding: 17px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 19px;
+}
  .jk{
     text-align: center;
     align-items: center;
+    font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
-    background-color: aquamarine;
+    background-color: rgb(183, 212, 203);
     border: 1px solid #b9aeae ;
     border-radius: 10px;
     border-style: none;
     display: block;
+    padding: 10px;
     letter-spacing: 2px;
     word-spacing: 4px;
     margin: 20px;
