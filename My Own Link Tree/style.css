@@ -1,0 +1,27 @@
+.profile-image{
+   align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 27px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: black;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jk{
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    background-color: aquamarine;
+    border: 1px solid #b9aeae ;
+    border-radius: 10px;
+    border-style: none;
+    
+}
