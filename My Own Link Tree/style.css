@@ -29,17 +29,21 @@ body{
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff;
-    padding: 7px;
+    padding: 15px;
     border-radius: 4px;
     box-sizing: border-box;
-    border-radius: 6px;
+    border-radius: 70px;
 }
 .asdf{
     background-color: #494747;
     padding: 17px;
     border-radius: 4px;
     box-sizing: border-box;
-    border-radius: 19px;
+    border-radius:270px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
  .jk{
     text-align: center;
@@ -49,13 +53,15 @@ body{
     font-style: oblique;
     background-color: rgb(183, 212, 203);
     border: 1px solid #b9aeae ;
-    border-radius: 10px;
+    border-radius: 45px;
     border-style: none;
     display: block;
-    padding: 10px;
+    padding: 20px;
     letter-spacing: 2px;
     word-spacing: 4px;
     margin: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
 } 
 .main-jk{
     display: flex;
