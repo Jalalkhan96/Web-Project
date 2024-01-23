@@ -1,9 +1,15 @@
-.profile-image{
-   align-items: center;
-    text-align: center;
+.container{
     display: flex;
-    margin-left: 500px;
-    margin-top: 27px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
 }
 body{
     display: flex;
@@ -12,18 +18,23 @@ body{
     background: url('3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    
+    display: block;
 }
-a{
+  a{
     text-decoration: none;
     text-transform: uppercase;
-    text-decoration: black;
+    text-decoration: rgb(0, 0, 0);
     color: black;
     font-weight: 900;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 6px;
 }
-.jk{
+ .jk{
     text-align: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,5 +43,16 @@ a{
     border: 1px solid #b9aeae ;
     border-radius: 10px;
     border-style: none;
+    display: block;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin: 20px;
+} 
+.main-jk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
     
-}
+} 
