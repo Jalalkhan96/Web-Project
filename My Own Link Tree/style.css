@@ -1,17 +1,35 @@
-.container{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
 }
-.profile-image{
+
+
+
+.profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    
+
 }
-body{
+
+.profile-image:hover {
+    border: 3px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: transform 0.1s ease-in;
+
+}
+
+body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -20,7 +38,8 @@ body{
     background-position: center;
     display: block;
 }
-  a{
+
+a {
     text-decoration: none;
     text-transform: uppercase;
     text-decoration: rgb(0, 0, 0);
@@ -34,25 +53,28 @@ body{
     box-sizing: border-box;
     border-radius: 70px;
 }
-.asdf{
+
+.asdf {
     background-color: #494747;
     padding: 17px;
     border-radius: 4px;
     box-sizing: border-box;
-    border-radius:270px;
+    border-radius: 270px;
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 200px;
     margin-right: 200px;
+    overflow: hidden;
 }
- .jk{
+
+.jk {
     text-align: center;
     align-items: center;
-    font-weight: 300;
+    font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     background-color: rgb(183, 212, 203);
-    border: 1px solid #b9aeae ;
+    border: 1px solid #b9aeae;
     border-radius: 45px;
     border-style: none;
     display: block;
@@ -62,12 +84,45 @@ body{
     margin: 20px;
     margin-left: 190px;
     margin-right: 190px;
-} 
-.main-jk{
+}
+
+.jk:hover {
+    border-radius: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-style :normal;
+    background-color: #000000;
+    color: #fff;
+}
+
+.main-jk {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: block;
-    
-} 
+
+}
+
+.hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hover:hover {
+    border-radius: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 300;
+    letter-spacing: 7px;
+    word-spacing: 8px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: rgb(183, 212, 203);
+    ;
+    color: #000000;
+}
