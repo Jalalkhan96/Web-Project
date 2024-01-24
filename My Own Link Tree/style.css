@@ -52,10 +52,14 @@ a {
     border-radius: 4px;
     box-sizing: border-box;
     border-radius: 70px;
+    display: block;
+    margin: 10px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .asdf {
-    background-color: #494747;
+    background-color: transparent;
     padding: 17px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -73,10 +77,11 @@ a {
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
-    background-color: rgb(183, 212, 203);
+    background-color: rgb(255, 255, 255);
     border: 1px solid #b9aeae;
     border-radius: 45px;
     border-style: none;
+    color: #000000;
     display: block;
     padding: 20px;
     letter-spacing: 2px;
@@ -122,6 +127,8 @@ a {
     word-spacing: 8px;
     margin-left: 140px;
     margin-right: 140px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     background-color: rgb(183, 212, 203);
     ;
     color: #000000;
