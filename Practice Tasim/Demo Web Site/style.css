@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    padding: 5px;
+    letter-spacing: 10px;
+}
+
+.ode {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    float: right;
+    padding: 9px;
+    margin: 5px;
+}
+
+.ode:hover {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 11px;
+    margin: 5px;
+    font-weight: 800;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2rem0;
+}
+
+main {
+    width: 50%;
+    height: 370vh;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    right: 30%;
+    padding: 110px 50px;
+}
+
+.aside-containder {
+    width: 100%;
+    height: 290vh;
+    position: absolute;
+    top: 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 244px;
+    height: 70vh;
+    border-radius: 15px;
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.image {
+    padding: 5px;
+
+}
+
+.image img {
+    border-radius: 15px;
+
+}
+
+.content p {
+    font-size: 12px;
+    padding: 8px;
+    color: rgb(31, 31, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h2 {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.capsules {
+    padding: 0 12px;
+}
+
+.capsules span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(201, 195, 195);
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    padding: 9px 16px;
+    border-radius: 15px;
+    background-color: rgb(101, 101, 255);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border: none;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(104, 104, 156);
+    transition: 0.1ms;
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    border-radius: 17px;
+    margin-top: 2px;
+    cursor: progress;
+}
+
+aside {
+    width: 300px;
+    background-color: transparent;
+    height: 90vh;
+    position: sticky;
+    float: right;
+    top: 90px;
+}
+
+.asd {
+    width: 300px;
+    background-color: transparent;
+    height: 90vh;
+    position: relative;
+    float: left;
+    top: 90px;
+    margin-left: -20px;
+}
+
+.contact {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 40px;
+}
+
+.contact img {
+    border: 2px solid;
+    border-radius: 190px;
+    border-color: transparent;
+}
+
+.contact img:hover {
+    border: 9px solid;
+    border-radius: 200px;
+    border-color: transparent;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 250, 250);
+    text-align: center;
+}
+footer h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+footer h1:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: rgb(12, 4, 4);
+    letter-spacing: 2px;
+}
+footer p {
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+footer p:hover {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    color: aliceblue;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 6px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer p a{
+    text-decoration: none;
+
+ }
+footer p a:hover {
+   text-decoration: none;
+   color:aliceblue;
+}
