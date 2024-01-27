@@ -134,7 +134,7 @@ body {
     }
 }
 
-.social-icons a{
+.social-icons a {
     border: 1px solid #ccc;
     border-radius: 20%;
     display: inline-flex;
@@ -145,7 +145,7 @@ body {
     width: 40px;
 }
 
-.toggle-cntainer{
+.toggle-cntainer {
     position: absolute;
     left: 50%;
     top: 0;
@@ -157,11 +157,12 @@ body {
     z-index: 1000;
 }
 
-.container.active .toggle-cntainer{
+.container.active .toggle-cntainer {
     transform: translateX(-100%);
     border-radius: 0 150px 100px 0;
 }
-.toggle{
+
+.toggle {
     background-color: #512da8;
     height: 100px;
     background: linear-gradient(to right, #5c6bc0, #512da8);
@@ -171,12 +172,14 @@ body {
     height: 100%;
     width: 200%;
     transform: translateX(0);
-    transition:  all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
-.container.active .toggle{
+
+.container.active .toggle {
     transform: translateX(50%)
 }
-.toggle-panel{
+
+.toggle-panel {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -188,21 +191,22 @@ body {
     text-align: center;
     top: 0;
     transform: translateX(0);
-    transition:  all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
-   
-.toggle-left{
+
+.toggle-left {
     transform: translateX(-200%);
 }
 
-.container.active .toggle-left{
+.container.active .toggle-left {
     transform: translateX(0);
 }
-   
-.toggle-right{
+
+.toggle-right {
     right: 0;
     transform: translateX(0);
 }
-.container.active .toggle-right{
+
+.container.active .toggle-right {
     transform: translateX(-200%);
 }

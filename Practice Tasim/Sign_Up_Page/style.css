@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
-   
+
 }
 
 .inner-box {
@@ -113,10 +113,11 @@ h1 {
     position: absolute;
 }
 
-.c1{
-    top: 42px;   
+.c1 {
+    top: 42px;
     left: 35px;
 }
+
 .ccircle {
     width: 200px;
     height: 200px;
@@ -124,7 +125,8 @@ h1 {
     background: linear-gradient(to left, #ffffff33, #f0eeee);
     position: absolute;
 }
-.cc1{
-    bottom: 40px;  
-    right: 50px; 
+
+.cc1 {
+    bottom: 40px;
+    right: 50px;
 }

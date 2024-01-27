@@ -36,15 +36,17 @@
 img {
     border: 5px solid rgb(250, 0, 0);
     border-radius: 50px;
-    border-color: transparent;  
+    border-color: transparent;
     margin: 0;
 }
-img:hover{
+
+img:hover {
     border: 1px solid rgb(250, 0, 0);
     border-radius: 60px;
-    border-color: transparent; 
+    border-color: transparent;
     margin: 0;
 }
-.Profile{
- text-align: left;
+
+.Profile {
+    text-align: left;
 }

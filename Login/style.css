@@ -72,7 +72,7 @@ header {
     color: #162938;
 }
 
-body { 
+body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -80,11 +80,13 @@ body {
     background-size: cover;
     background-position: center;
 }
-main{
+
+main {
     margin-top: 8%;
     align-items: center;
 }
-.wrapper{
+
+.wrapper {
     position: relative;
     width: 400px;
     height: 440px;
@@ -101,6 +103,7 @@ main{
     /* transform: scale(0); */
     transition: transform .5s ease, height .2s ease;
 }
+
 .wrapper.active .form-box.login {
     transform: translateX(-400px);
 }
@@ -108,37 +111,45 @@ main{
 .wrapper.active .form-box.register {
     transform: translateX(0);
 }
-.wrapper.active .form-box.login{
+
+.wrapper.active .form-box.login {
     transition: none;
     transform: translateX(-400px);
 }
-.wrapper .form-box.login{
+
+.wrapper .form-box.login {
     transition: transform .18s ease;
     transform: translateX(0);
 }
-.wrapper.active .form-box.login{
-    transition:transform .18s ease;
-    transform:translateX(-400px);
+
+.wrapper.active .form-box.login {
+    transition: transform .18s ease;
+    transform: translateX(-400px);
 }
-.wrapper.active .form-box.register{
-    transition:transform .18s ease;
-    transform:translateX(-400px);
+
+.wrapper.active .form-box.register {
+    transition: transform .18s ease;
+    transform: translateX(-400px);
 
 }
-.wrapper.active .form-box.register{
+
+.wrapper.active .form-box.register {
     transition: transform .18s ease;
     transform: translateX(0);
 }
-.wrapper  .form-box.Register{
+
+.wrapper .form-box.Register {
     position: absolute;
     transition: none;
     transform: translateX(400px);
 }
+
 .wrapper.active {
     height: 520;
 
 }
-.wrapper .icon-close{
+
+.wrapper .icon-close {
     position: absolute;
     top: 0;
     right: 0;
@@ -154,26 +165,31 @@ main{
     cursor: pointer;
     z-index: 1;
 }
-.wrapper .form-box{
+
+.wrapper .form-box {
     width: 100%;
     padding: 40px;
 }
-.wrapper.active.popup{
+
+.wrapper.active.popup {
     transform: scale(1);
 }
-.form-box h2{
+
+.form-box h2 {
     font-size: 2em;
     color: #162938;
     text-align: center;
 }
-.input-box{
+
+.input-box {
     position: relative;
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #162938;
     margin: 30px 0;
 }
-.input-box label{
+
+.input-box label {
     position: absolute;
     top: 26px;
     left: 5px;
@@ -182,14 +198,16 @@ main{
     color: #162938;
     font-weight: 500;
     pointer-events: none;
-   
+
     transition: .5s;
 }
+
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label {
     top: -5px;
 }
-.input-box input{
+
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -201,39 +219,42 @@ main{
     padding: 0 35px 0 5px;
 
 }
-.input-box .icon{
-position: absolute;
-right: 8px;
-font-size: 1.2em;
-color: #162938;
-line-height: 57px;
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
 }
-.remember-forget{
-font-size: 0.9em;
-color: #162938;
-margin: -15px 0 15px;
-font-weight: 500;
-display: flex;
-justify-content: space-between;
+
+.remember-forget {
+    font-size: 0.9em;
+    color: #162938;
+    margin: -15px 0 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
 }
-.remember-forget label input{
+
+.remember-forget label input {
     accent-color: #162938;
     margin-right: 3px;
 }
 
-.remember-forget a:hover{
+.remember-forget a:hover {
     text-decoration: underline;
 }
 
-.remember-forget a{
+.remember-forget a {
     color: #162938;
     text-decoration: none;
 }
 
-.btn{
+.btn {
     width: 100%;
     height: 45px;
-    background : #162938;
+    background: #162938;
     border: none;
     outline: none;
     border-radius: 6px;
@@ -243,13 +264,14 @@ justify-content: space-between;
     font-weight: 500px;
 }
 
-.login-register{
-    font-size: .9em ;
+.login-register {
+    font-size: .9em;
     color: #162938;
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
+
 .login-register p a {
     color: #162938;
     text-decoration: none;
@@ -258,6 +280,6 @@ justify-content: space-between;
 }
 
 
-.login-register p a:hover{
+.login-register p a:hover {
     text-decoration: underline;
 }
