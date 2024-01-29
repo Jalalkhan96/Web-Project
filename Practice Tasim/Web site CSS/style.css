@@ -8,7 +8,8 @@
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
     --accent-color: #2294ed;
-    ---padding-inline-section: #1d69a3;
+    --accent-color-dark: #1d69a3;
+    ---padding-inline-section: 20px;
 }
 
 body {
@@ -107,4 +108,25 @@ ul {
     border-radius: 6px;
     font-weight: 700px;
     color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px ;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
 }
