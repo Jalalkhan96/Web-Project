@@ -272,3 +272,18 @@ box-shadow: 0 0 10px #888 ;
     color: white;
     margin-top: 20px;
 }
+
+.link-column{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
