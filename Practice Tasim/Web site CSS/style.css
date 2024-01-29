@@ -132,7 +132,7 @@ ul {
 }
 
 header{
-    padding: 50px var(---padding-inline-section);
+    padding: 50px var(---padding-inline-section) 0;
 }
 
 .header-section{
@@ -171,4 +171,32 @@ margin-top: 20px;
 
 .logo{
     height: 46px;
+}
+
+
+.features-section{
+    padding: 80px var(---padding-inline-section) 0;
+    background-image: url(3.PNG);
+    background: no-repeat;
+    background-position: center;
+}
+.features-header{
+    text-align: center;
+}
+
+.features-heading-text{
+    margin-bottom: 20px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.featrues-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
 }
