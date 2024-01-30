@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+.primary-btn{
+margin-bottom: 5px;
+
+}
+
+.primary-btn:link {
+    padding: 10px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.primary-btn:hover {
+    color: aqua;
+    background-color: azure;
+    border-radius: 6px;
+}
+
+.primary-btn:visited {
+    color: rgb(191, 218, 218);
+    background-color: rgb(5, 5, 5);
+    border-radius: 6px;
+}
+
+a{
+    margin: 10px;
+}
+.primary-btn:active {
+    color: rgb(0, 0, 0);
+    background-color: #eee;
+    border: 2px solid #222;
+    border-radius: 6px;
+}
+
+ul li:first-child{
+    background-color: #222;
+}
+
+ul li:nth-child(4){
+    background-color: antiquewhite;
+}
+
+ul li:nth-child(2n){
+    background-color: aquamarine;
+}
+
+ul li:nth-child(2n+1){
+    background-color: gray;
+}
+
+h1::first-letter{
+    font-size: 3rem;
+}
+
+p::first-line{
+    background-color: #222;
+    color: #eee;
+}
+
+h1::before{
+    content: 'Abix Here Boyz';
+}
+
+.required::after{
+    content: '*';
+    color: red;
+}
+
+.important::after{
+content: 'important';
+background-color: rgb(180, 98, 66);
+color: whitesmoke;
+padding: 0.2rem;
+font-size: 0.5rem;
+margin-left: 10px;
+vertical-align: middle ;
+}
+
+.primary-btn{
+    margin: 10px 10px 10px 10px;
+}
