@@ -287,3 +287,15 @@ footer{
     padding-block: 80px;
     background-color: #ebf2fa;
 }
+
+.sub-footer{
+    margin-top: 60px;
+    margin-bottom: 0px;
+  background-color: #b9cde4;
+  padding: var(---padding-inline-section);
+}
+
+.subfooter-container{
+justify-content: center;
+gap: 30px;
+}
