@@ -38,6 +38,7 @@ img {
     border-radius: 50px;
     border-color: transparent;
     margin: 0;
+    
 }
 
 img:hover {
@@ -49,4 +50,8 @@ img:hover {
 
 .Profile {
     text-align: left;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
 }
