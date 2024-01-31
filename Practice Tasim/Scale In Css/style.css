@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color:aqua;
+    margin: 80px auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(133, 104, 104);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(2,1.2); */
+    /* transform: skew(20deg, 45deg ); */
+    /* transform: translate(50%,50%); */
+ transition: 1s ease-out;
+     transform-origin:100px 200px;
+}
+
+.box:hover{
+    transform:rotate(45deg); 
+    box-shadow: 0 0 7px #eee; 
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 8px;
+    letter-spacing: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
