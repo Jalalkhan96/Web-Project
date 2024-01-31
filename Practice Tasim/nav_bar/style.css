@@ -31,6 +31,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 11px;
     font-weight: 800;
+    transform:translateY(-10px);
 }
 
 img {
@@ -46,6 +47,7 @@ img:hover {
     border-radius: 60px;
     border-color: transparent;
     margin: 0;
+    transform:translateY(-10px);
 }
 
 .Profile {
