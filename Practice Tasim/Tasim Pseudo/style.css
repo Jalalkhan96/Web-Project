@@ -8,14 +8,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
 }
-.primary-btn{
-margin-bottom: 5px;
+
+.primary-btn {
+    margin-bottom: 5px;
 
 }
 
 .primary-btn:link {
     padding: 10px;
     color: #fff;
+    text-decoration: none;
+    background-color: #222;
     border-radius: 6px;
 }
 
@@ -31,9 +34,10 @@ margin-bottom: 5px;
     border-radius: 6px;
 }
 
-a{
+a {
     margin: 10px;
 }
+
 .primary-btn:active {
     color: rgb(0, 0, 0);
     background-color: #eee;
@@ -41,50 +45,50 @@ a{
     border-radius: 6px;
 }
 
-ul li:first-child{
+ul li:first-child {
     background-color: #222;
 }
 
-ul li:nth-child(4){
+ul li:nth-child(4) {
     background-color: antiquewhite;
 }
 
-ul li:nth-child(2n){
+ul li:nth-child(2n) {
     background-color: aquamarine;
 }
 
-ul li:nth-child(2n+1){
+ul li:nth-child(2n+1) {
     background-color: gray;
 }
 
-h1::first-letter{
+h1::first-letter {
     font-size: 3rem;
 }
 
-p::first-line{
+p::first-line {
     background-color: #222;
     color: #eee;
 }
 
-h1::before{
+h1::before {
     content: 'Abix Here Boyz';
 }
 
-.required::after{
+.required::after {
     content: '*';
     color: red;
 }
 
-.important::after{
-content: 'important';
-background-color: rgb(180, 98, 66);
-color: whitesmoke;
-padding: 0.2rem;
-font-size: 0.5rem;
-margin-left: 10px;
-vertical-align: middle ;
+.important::after {
+    content: 'important';
+    background-color: rgb(180, 98, 66);
+    color: whitesmoke;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
-.primary-btn{
+.primary-btn {
     margin: 10px 10px 10px 10px;
 }
