@@ -1,0 +1,34 @@
+.box{
+    margin: 100px auto;
+    width: 500px ;
+    height: 500px ;
+    background-color: aqua;
+    transition: .5s;
+    border-radius: 10px;
+transition-property:  border-radius,background-color,transform,background-image,;
+transition-timing-function:ease;
+}
+
+#ss2:hover{
+    background-image:  url(inspect\ copy.png);
+    background-size: 400px;
+    background-position-x: 55px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transform: rotate(720deg);
+}
+
+
+#ss1:hover{
+    background-image: url(console.png);
+    background-color: blueviolet;
+    border-radius: 50%;
+    background-size: 400px;
+    background-position-x: 55px;
+    transform: rotate(720deg);
+}
+p{
+    text-align: center;
+    background-color: #eee;
+    display:block;
+}
