@@ -174,10 +174,14 @@ margin-top: 20px;
     height: 46px;
 }
 
+.logo:hover{
+    transform: scale(1.2);
+}
+
 
 .features-section{
     padding: 80px var(---padding-inline-section) 0;
-    background-image: url(3.PNG);
+    background-image: url(./assets/asset\ 32.svg);
     background: no-repeat;
     background-position: center;
 }
@@ -203,7 +207,7 @@ margin-top: 20px;
 }
 
 .big-feature-section{
-    padding: 30px var(---padding-inline-section);
+    padding: 30px var(---padding-inline-section) 0;
 
 }
 
@@ -211,7 +215,7 @@ margin-top: 20px;
     gap: 30px;
 }
 
-.feature-img{
+.feature-img img{
     width: 100%;
 }
 
@@ -234,7 +238,7 @@ margin-top: 20px;
     min-height: 300px;
     position: relative;
     background: rgb(177, 141, 141);
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(3sc.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./assets/asset\ 35.jpeg);
     background-size: cover;
     transition: 0.3s ease-out;
 }
@@ -243,12 +247,12 @@ margin-top: 20px;
 box-shadow: 0 0 10px #888 ;
 }
 .example-card:nth-child(4){
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(2.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./assets/asset\ 37.jpeg);
     background-size: cover;
 }
 
 .example-card:nth-child(3){
-    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(3.PNG);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
     background-size: cover;
 }
 
@@ -297,4 +301,8 @@ footer{
 .subfooter-container{
 justify-content: center;
 gap: 30px;
+}
+.company-logo img{
+
+width: 150px;
 }
