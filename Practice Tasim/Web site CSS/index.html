@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>AB Here</title>
+    <link rel="stylesheet" href="media-quries.css">
+    <title>AB Here</title> 
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             <a class="company-logo">
                 <img width="150px" src="./assets/asset 1.png" alt="company logo">
             </a>
-            <div class="nav-link">
+            <div class="nav-link " id="nav-link">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Apps</a></li>
                     <li><a href="#" class="hover-link">Power Xml</a></li>
@@ -29,6 +30,9 @@
                     <li><a href="#" class="hover-link primary-button">Sign Up</a></li>
                 </ul>
             </div>
+            <a href="#" class="nav-toggle hover-link" id="toggle-link">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
     </nav>
 
@@ -74,7 +78,7 @@
 
             <div class="features-area flex">
                 <div class="featrues-card flex">
-                    <img width="60px" src="./assets/asset 11.svg" alt="Logo">
+                    <img width="60px"  src="./assets/asset 11.svg" alt="Logo">
                     <h3>Card Sorting</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                     <a class="secondary-button" href="#">Learn More</a>
@@ -134,7 +138,7 @@
     </section>
 
     <section class="big-feature-section">
-        <div class="container flex big-feature-container" style="flex-direction: row-reverse">
+        <div class="container flex big-feature-container" id="second-big-feature">
             <div class="feature-img">
                 <img src="./assets/asset 21.png" alt="pic">
             </div>
@@ -231,7 +235,7 @@
             </div>
         </div>
     </footer>
-    <div class="sub-footer">
+    <div class="sub-footer ">
         <div class="container flex subfooter-container">
             <a href="#" class="hover-link">Privacy</a>
             <a href="#" class="hover-link">Term</a>
@@ -239,6 +243,17 @@
             <a href="#" class="hover-link">Status Page</a>
         </div>
     </div>
+
+
+    <script>
+        const toggleButton = document.getElementById('toggle-link');
+        const navLinks = document.getElementById('nav-link');
+
+
+        toggleButton.addEventListener('click', () =>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
