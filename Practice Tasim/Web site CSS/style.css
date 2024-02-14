@@ -102,6 +102,7 @@ ul {
 .hover-link {
     color: var(--primary-text-color);
     transition: 0.2s ease-out;
+  
 }
 
 .hover-link:hover {
@@ -111,7 +112,7 @@ ul {
 .primary-button {
     background-color: var(--accent-color);
     border-radius: 6px;
-    font-weight: 700px;
+    font-weight: 700;
     color: white !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
